@@ -17,7 +17,7 @@ if combatStrength < 1 or combatStrength > 6:
 
 
 # Input combat strength for the monster
-mCombatStrength = int(input("Enter your combat strength (1-6): "))
+mCombatStrength = int(input("Enter the monsters combat strength (1-6): "))
 if mCombatStrength < 1 or mCombatStrength > 6:
     print("Invalid input! Combat strength should be between 1 and 6.")
     mCombatStrength = 1 #Default value for invalid input
